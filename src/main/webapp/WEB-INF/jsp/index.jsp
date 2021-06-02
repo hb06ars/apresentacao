@@ -27,8 +27,8 @@
 	<!-- Favicons -->
 
 	<!-- Google Webfonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,800,700italic,600italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Neuton:400,200,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,800,700italic,600italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Neuton:400,200,300' rel='stylesheet' type='text/css'>
 
 	<!--[if lt IE 9]>
 	<script src="/js/libs/respond.min.js"></script>
@@ -56,7 +56,11 @@
 <body>
 
 <!-- LOADING MASK -->
-
+<div id="mask">   
+    <div class="loader">
+        <img src="images/loading.gif" alt='loading'>
+    </div>
+</div>
 <!-- MAIN CONTENT -->
 <div class="main-content">
 	<div class="container no-padding">
@@ -249,7 +253,7 @@
 												<img src="images/blog/liga.jpg" class="img-responsive" alt=""/>
 											</div>
 											<div class="col-md-7">
-												<h3><a href="http://ligaweb-hb.herokuapp.com/" target="_blank">Liga Web</a></h3>
+												<h3><a href="https://ligaweb-hb.herokuapp.com/" target="_blank">Liga Web</a></h3>
 												<h5><a href="https://www.youtube.com/watch?v=JeBolPwAJTk&t=1s" target="_blank">Vídeo</a></h5>
 												<br>
 												<p>Você pode cadastrar sua equipe e marcar jogos com adversários, pontuação e Ranking.</p>
@@ -320,7 +324,7 @@
 <!-- MAIN CONTENT -->
 
 <!-- JavaScript -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/jquery.easing.js"></script>
@@ -332,7 +336,7 @@
 <script src="js/contact.js"></script>
 <script src="js/animations.js"></script>
 
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="js/gmaps.js"></script>
 
 
