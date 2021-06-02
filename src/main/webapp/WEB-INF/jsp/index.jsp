@@ -25,11 +25,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Favicons -->
-	<link rel="shortcut icon" href="images/logoIcone.png">
-	<link rel="apple-touch-icon" href="images/logoIcone.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/logoIcone.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/logoIcone.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="images/logoIcone.png">
 
 	<!-- Google Webfonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,800,700italic,600italic' rel='stylesheet' type='text/css'>
@@ -61,11 +56,7 @@
 <body>
 
 <!-- LOADING MASK -->
-<div id="mask">   
-    <div class="loader">
-        <img src="images/loading.gif" alt='loading'>
-    </div>
-</div>
+
 <!-- MAIN CONTENT -->
 <div class="main-content">
 	<div class="container no-padding">
