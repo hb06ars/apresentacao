@@ -96,7 +96,7 @@
 												<h3><a href="https://hb-imobiliaria.herokuapp.com/" target="_blank">Sistema para Imobiliária</a></h3>
 												<h5><a href="https://www.youtube.com/watch?v=atcrlOI3BYU" target="_blank">Vídeo</a></h5>
 												<br>
-												<p>Estes Sistema foi criado para imobiliárias, podem realizar cadastro dos imóveis para visualiação de seus imóveis .</p>
+												<p>Estes Sistema foi criado para imobiliárias, podem realizar cadastro dos imóveis para visualização de seus imóveis .</p>
 												<p>
 												<br>
 												<b>Login e Senha para testes:</b><br>
