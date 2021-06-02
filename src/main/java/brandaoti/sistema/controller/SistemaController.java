@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 @CrossOrigin("*")
 public class SistemaController {
 		
-		@RequestMapping(value = {"/","/login"}, produces = "text/plain;charset=UTF-8", method = RequestMethod.GET) // Pagina de Vendas
+		@RequestMapping(value = {"/","/home"}, produces = "text/plain;charset=UTF-8", method = RequestMethod.GET) // Pagina de Vendas
 		public ModelAndView login(@RequestParam(value = "nome", required = false, defaultValue = "Henrique Brandão") String nome) { //Funcao e alguns valores que recebe...
 			String link = "index";
 			ModelAndView modelAndView = new ModelAndView(link); //JSP que irÃ¡ acessar
