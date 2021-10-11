@@ -222,10 +222,7 @@ function salvarSocial(){
 }
 
 function imprimir(){
-	document.getElementById("btVoltar").style.display="none";
-	document.getElementById("btSalvar").style.display="none";
-	document.getElementById("btSalvar").style.visibility = "hidden";
-	document.getElementById("btVoltar").style.visibility = "hidden";
+	document.getElementById("mostrarBotoes").innerHTML = '';
 	impressao();
 	mostrarBt();
 }
@@ -239,10 +236,7 @@ function impressao(){
 }
 
 function mostrarBt(){
-	document.getElementById("btVoltar").style.display="block";
-	document.getElementById("btSalvar").style.display="block";
-	document.getElementById("btSalvar").style.visibility = "visible";
-	document.getElementById("btVoltar").style.visibility = "visible";
+	document.getElementById("mostrarBotoes").innerHTML = "<div class='col-sm-12 col-md-12 col-lg-12'><br></div> <div id='btVoltar' class='col-sm-3 col-md-3 col-lg-3'> <a type='button' class='btn btn-danger' href='\' data-dismiss='modal' >Voltar</a><br>&nbsp </div> <div id='btSalvar' class='col-sm-3 col-md-3 col-lg-3'> <button type='button' class='btn btn-primary' onclick='imprimir()' data-dismiss='modal' >Imprimir / Salvar</button><br>&nbsp </div>";
 }
 
 </script>
@@ -418,12 +412,14 @@ function mostrarBt(){
 <!-- IMPRIMIR ------------------------------------------------------------------------ -->
 <div class="container-fluid">
     <div id="topo" class="bg row" style="background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-triangulo-branco_1035-17544.jpg?size=626&ext=jpg')" >
+        <div id="mostrarBotoes">
         <div class='col-sm-12 col-md-12 col-lg-12'><br></div>
         <div id="btVoltar" class='col-sm-3 col-md-3 col-lg-3'>
 			<a type="button" class="btn btn-danger" href="\" data-dismiss="modal" >Voltar</a><br>&nbsp
 		</div>
 		<div id="btSalvar" class='col-sm-3 col-md-3 col-lg-3'>
 			<button type="button" class="btn btn-primary" onclick="imprimir()" data-dismiss="modal" >Imprimir / Salvar</button><br>&nbsp
+		</div>
 		</div>
 	</div>
 </div>
