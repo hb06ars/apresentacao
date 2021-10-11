@@ -159,7 +159,7 @@ function abrirModalRedeSocial(campo, titulo){
 		document.getElementById("titulo").innerHTML = '<a href="'+titulo+'" class="fa fa-linkedin"></a> Digite seu '+titulo;
 	}
 	if(titulo == 'Whatsapp'){
-		document.getElementById("textareaSocial").placeholder = '(11)99999-9999'
+		document.getElementById("textareaSocial").placeholder = '55(11)99999-9999'
 		document.getElementById("titulo").innerHTML = '<a href="'+titulo+'" class="fa fa-whatsapp"></a> Digite seu '+titulo;
 	}
 	campo_global = campo;
@@ -224,16 +224,27 @@ function salvarSocial(){
 function imprimir(){
 	document.getElementById("btVoltar").style.display="none";
 	document.getElementById("btSalvar").style.display="none";
-	alert('Para habilitar a imagem de fundo, clique em: Mais Definições\nEm seguida, marque: Imagens em segundo plano.')
+	document.getElementById("btSalvar").style.visibility = "hidden";
+	document.getElementById("btVoltar").style.visibility = "hidden";
+	impressao();
+	mostrarBt();
+}
+
+function impressao(){
 	var restorepage = $('body').html();
 	var printcontent = $('#pagina').clone();
 	$('body').empty().html(printcontent);
 	window.print();
 	$('body').html(restorepage);
+}
+
+function mostrarBt(){
 	document.getElementById("btVoltar").style.display="block";
 	document.getElementById("btSalvar").style.display="block";
-	
+	document.getElementById("btSalvar").style.visibility = "visible";
+	document.getElementById("btVoltar").style.visibility = "visible";
 }
+
 </script>
 
 
