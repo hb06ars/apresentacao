@@ -60,12 +60,6 @@
 </div>
 
 
-<script>
-function redirect(link){
-	window.location = link;
-}
-</script>
-
 
 <!-- MAIN CONTENT -->
 <div class="main-content">
@@ -79,7 +73,6 @@ function redirect(link){
 				<ul class="navigation">
 					<li><a href="#">Serviços <i class="fa fa-briefcase"></i></a></li>
 					<li><a href="#">Contato <i class="fa fa-envelope"></i></a></li>
-					<li><a onclick="redirect('/cv')" href="#">Crie um Currículo <i class="fa fa-file-text"></i></a></li>
 				</ul>
 				</nav>
 			</div>
@@ -270,6 +263,23 @@ function redirect(link){
 												Usuário:	hb06ars
 												<br>
 												Senha:		kzdut
+												</p>
+											</div>
+										</div>
+									</article>
+									
+									
+									<article>
+										<div class="row">
+											<div class="col-md-5">
+												<img src="images/blog/cv.png" class="img-responsive" alt=""/>
+											</div>
+											<div class="col-md-7">
+												<h3><a href="/cv" target="_blank">Crie um CV Online</a></h3>
+												<br>
+												<p>Crie um CV aqui.</p>
+												<p>
+												<br>
 												</p>
 											</div>
 										</div>
