@@ -20,6 +20,13 @@ public class SistemaController {
 			return modelAndView; //retorna a variavel
 		}
 		
+		@RequestMapping(value = "/cv", produces = "text/plain;charset=UTF-8", method = RequestMethod.GET) // Pagina de Vendas
+		public ModelAndView cv() { //Funcao e alguns valores que recebe...
+			String link = "curriculo";
+			ModelAndView modelAndView = new ModelAndView(link); //JSP que irÃ¡ acessar
+			return modelAndView; //retorna a variavel
+		}
+		
 }
 	
 	

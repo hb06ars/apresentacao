@@ -3,21 +3,18 @@
 <head>
 	
 	<!-- Meta -->
-	<meta charset="utf-8">
-	
 	<meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="author" content="Henrique Brandão">
+	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="shortcut icon" href="images/logoIcone.png">
-    <link rel="apple-touch-icon" href="images/logoIcone.png" sizes="180x180">
-    <link rel="icon" href="images/logoIcone.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="images/logoIcone.png" sizes="16x16" type="image/png">
-    <link rel="shortcut icon" href="images/logoIcone.png" type="image/ico">
+	<link rel="shortcut icon" href="images/logoIcone.png">
+	<link rel="apple-touch-icon" href="images/logoIcone.png" sizes="180x180">
+	<link rel="icon" href="images/logoIcone.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="images/logoIcone.png" sizes="16x16" type="image/png">
+	<link rel="shortcut icon" href="images/logoIcone.png" type="image/ico">
     
-	<meta name="keywords" content="HTML5 Template" />
-	<meta name="description" content="Multipress - Responsive Multipurpose HTML5 Template">
-	<meta name="author" content="">
+<meta name="keywords" content="HTML5 Template" />
+<meta name="description" content="Apresentação">
 
 	<title>Henrique Brandão</title>
 
@@ -61,6 +58,15 @@
         <img src="images/loading.gif" alt='loading'>
     </div>
 </div>
+
+
+<script>
+function redirect(link){
+	window.location = link;
+}
+</script>
+
+
 <!-- MAIN CONTENT -->
 <div class="main-content">
 	<div class="container no-padding">
@@ -71,6 +77,7 @@
 				</div>
 				<nav>
 				<ul class="navigation">
+					<li><a onclick="redirect('/cv')" href="#">Crie um Currículo <i class="fa fa-file-text"></i></a></li>
 					<li><a href="#">Serviços <i class="fa fa-briefcase"></i></a></li>
 					<li><a href="#">Contato <i class="fa fa-envelope"></i></a></li>
 				</ul>
