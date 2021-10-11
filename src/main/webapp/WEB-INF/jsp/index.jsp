@@ -77,9 +77,9 @@ function redirect(link){
 				</div>
 				<nav>
 				<ul class="navigation">
-					<li><a onclick="redirect('/cv')" href="#">Crie um Currículo <i class="fa fa-file-text"></i></a></li>
 					<li><a href="#">Serviços <i class="fa fa-briefcase"></i></a></li>
 					<li><a href="#">Contato <i class="fa fa-envelope"></i></a></li>
+					<li><a onclick="redirect('/cv')" href="#">Crie um Currículo <i class="fa fa-file-text"></i></a></li>
 				</ul>
 				</nav>
 			</div>
