@@ -62,10 +62,10 @@
 
 
 <!-- MAIN CONTENT -->
-<div class="main-content">
-	<div class="container no-padding">
+<div class="main-content" >
+	<div class="container" style="width:100%">
 		<div class="row">
-			<div class="col-md-3 l-content">
+			<div class="col-md-12 l-content">
 				<div class="profile-pic">
 					<div class="pic-bg"><img src="images/profile-avatar.png" class="img-responsive" alt=""/></div>
 				</div>
@@ -76,7 +76,7 @@
 				</ul>
 				</nav>
 			</div>
-			<div class="col-md-9 r-content">
+			<div class="col-md-12 r-content">
 				<div class="flexslider">
 					<div class="slides">
 						<!-- SECTION 1 - HOMEPAGE -->

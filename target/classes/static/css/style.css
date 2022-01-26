@@ -5,7 +5,6 @@ Version:	1.0
 
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
-
 	1. Global Styles
 	2. Header
 	3. Theme Extras
@@ -19,10 +18,8 @@ Version:	1.0
 	9. Contact
 		9.1. Map Styles
 		9.2. Contact Info
-
 	10. Footer
 	11. Blog - Single Post
-
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------- 
@@ -64,7 +61,7 @@ a:hover {
 }
 
 .main-content {
-	margin: 100px 0;
+	margin: 0 0;
 	overflow: hidden;
 }
 
@@ -79,15 +76,15 @@ a:hover {
 }
 
 .profile-pic {
-	background: url(../images/profile-bg.jpg) no-repeat;
+	background: url(../images/profile-bg2.jpg) no-repeat;
 	height: 266px;
 	position: relative;
 }
 
 .pic-bg {
-	background: url(../images/pic-bg.png) no-repeat;
-	width: 140px;
-	height: 140px;
+	/*background: url(../images/pic-bg.png) no-repeat;*/
+	width: 190px;
+	height: 190px;
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1149,7 +1146,7 @@ footer p {
 }
 
 .profile-pic {
-	background-size: 100% auto;
+	background-size: 626px;
 }
 
 .personal-info li em {
@@ -1233,4 +1230,3 @@ footer {
 }
 
 }
-
