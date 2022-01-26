@@ -1093,8 +1093,6 @@ footer p {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
 .container {
-	max-width: 100%;
-	width: 100%;
 	margin: 0 auto;
 }
 
@@ -1112,8 +1110,6 @@ footer p {
 @media only screen and (max-width: 767px) {
 
 .container {
-	max-width: 280px;
-	width: 280px;
 	margin: 0 auto;
 }
 
@@ -1210,8 +1206,6 @@ footer {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 .container {
-	max-width: 470px;
-	width: 470px;
 	margin: 0 auto;
 }
 
