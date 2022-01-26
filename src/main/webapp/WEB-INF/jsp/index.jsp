@@ -218,9 +218,9 @@
 												<p>
 												<br>
 												<b>Login e Senha para testes:</b><br>
-												Usuário:	587
+												Usuário:	adm@adm.com
 												<br>
-												Senha:		587
+												Senha:		adm
 												</p>
 											</div>
 										</div>
@@ -260,9 +260,9 @@
 												<p>
 												<br>
 												<b>Login e Senha para testes:</b><br>
-												Usuário:	hb06ars
+												Usuário:	adm
 												<br>
-												Senha:		kzdut
+												Senha:		adm
 												</p>
 											</div>
 										</div>
