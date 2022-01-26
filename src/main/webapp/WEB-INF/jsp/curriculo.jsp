@@ -150,17 +150,17 @@ var campo_global = "";
 
 function abrirModalRedeSocial(campo, titulo){
 	if(titulo == 'Facebook'){
-		document.getElementById("titulo").innerHTML = '<a href="'+titulo+'" class="fa fa-facebook"></a> Digite seu '+titulo;
+		document.getElementById("tituloRedeSocial").innerHTML = '<a href="'+titulo+'" class="fa fa-facebook"></a> Digite seu '+titulo;
 	}
 	if(titulo == 'Instagram'){
-		document.getElementById("titulo").innerHTML = '<a href="'+titulo+'" class="fa fa-instagram"></a> Digite seu '+titulo;
+		document.getElementById("tituloRedeSocial").innerHTML = '<a href="'+titulo+'" class="fa fa-instagram"></a> Digite seu '+titulo;
 	}
 	if(titulo == 'Linkedin'){
-		document.getElementById("titulo").innerHTML = '<a href="'+titulo+'" class="fa fa-linkedin"></a> Digite seu '+titulo;
+		document.getElementById("tituloRedeSocial").innerHTML = '<a href="'+titulo+'" class="fa fa-linkedin"></a> Digite seu '+titulo;
 	}
 	if(titulo == 'Whatsapp'){
 		document.getElementById("textareaSocial").placeholder = '55(11)99999-9999'
-		document.getElementById("titulo").innerHTML = '<a href="'+titulo+'" class="fa fa-whatsapp"></a> Digite seu '+titulo;
+		document.getElementById("tituloRedeSocial").innerHTML = '<a href="'+titulo+'" class="fa fa-whatsapp"></a> Digite seu '+titulo;
 	}
 	campo_global = campo;
 	$("#modalSocial").modal().show();
@@ -249,7 +249,7 @@ function mostrarBt(){
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="titulo">Título do modal</h5>
+        <h5 class="modal-title" id="tituloRedeSocial">Rede Social</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -307,7 +307,7 @@ function mostrarBt(){
             <div style="cursor:pointer;" onclick="abrirModal('imagem_link', 'Insira o Link da sua foto' )" class="text-center form-group">
                 <br>
 				<span id="imagem_link">
-					<img style="box-shadow: 2px 2px 6px 2px; border-radius: 100% ;max-width:150px;max-height:150px;min-width:150px;min-height:150px" src="https://www.w3schools.com/bootstrap4/paris.jpg" >
+					<img style="box-shadow: 2px 2px 6px 2px; border-radius: 100% ;max-width:150px;max-height:150px;min-width:150px;min-height:150px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/2048px-User_icon_2.svg.png" >
 				</span>	
 				<br>
             </div>
