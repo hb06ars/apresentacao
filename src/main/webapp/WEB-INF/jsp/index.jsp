@@ -93,6 +93,20 @@
 												<img src="images/blog/petshop.jpg" class="img-responsive" alt=""/>
 											</div>
 											<div class="col-md-7">
+												<h3><a href="https://hb-petshop.herokuapp.com/" target="_blank">Chat</a></h3>
+												<br>
+												<p>Chat</p>
+												<p>
+											</div>
+										</div>
+									</article>
+									
+									<article>
+										<div class="row">
+											<div class="col-md-5">
+												<img src="images/blog/petshop.jpg" class="img-responsive" alt=""/>
+											</div>
+											<div class="col-md-7">
 												<h3><a href="https://hb-petshop.herokuapp.com/" target="_blank">Petshop</a></h3>
 												<br>
 												<p>Sistema de Agendamento para Petshop.</p>
